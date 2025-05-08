@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top, .information, .quote, .footer {
+    
+    flex: 1; 
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.top {
+    background-color: #1F2937;
+    display: flex;  
+    justify-content: center; 
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.copywright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+}
