@@ -42,7 +42,12 @@ body {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
+    
 }
 
 
