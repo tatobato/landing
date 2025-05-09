@@ -10,30 +10,53 @@
     width: 100%;
 }
 
+
+
 body {
+    margin: 0px;
     height: 100vh;
-    margin: 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
+
 .top {
+    color: white;
     background-color: #1F2937;
     display: flex;  
-    justify-content: center; 
+    flex-direction: column;
+    flex: 1;
 }
 
 .top-content {
     display: flex;
-    justify-content: center;
     flex: 1;
-    width: 100%;
+}
+
+.top-middle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .quote {
     background-color: #e5e7eb;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .copywright {
@@ -44,9 +67,4 @@ body {
     color: white;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex: 1;
-}
+
