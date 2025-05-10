@@ -31,14 +31,39 @@ body {
 }
 
 .top-content {
+    margin-left: 60px;
+    margin-right: 60px;
     display: flex;
-    flex: 1;
+    flex: 0.5;
+    
 }
 
 .top-middle {
     display: flex;
+    flex: 1.5;
+    margin-left:160px;
+    margin-right:160px;    
+}
+
+.left-stuff {
+    display: flex;
     flex: 1;
-    justify-content: center;
+}
+
+.header {
+    font-size: 48px;
+}
+
+.right-stuff {
+    display: flex;
+    flex: 1;
+    
+    
+}
+
+.top-bottom {
+    display: flex;
+    flex: 0.5;
 }
 
 .quote {
